@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+  --cc-twitter-blue: rgb(29, 155, 240);
+  -cc-white: rgb(255, 255, 255);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+  background: var(--cc-white);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Container */
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CSS rules for Button */
+.share-btn {
+  background-color: var(--cc-twitter-blue);
+  width: 25rem;
+  height: 7rem;
+  border-radius: 8rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter-icon,
+.share-btn > p {
+  color: #fff;
+}
+
+.twitter-icon {
+  margin-right: 1.2rem;
+  font-size: 2.5rem;
+}
+
+
+.share-btn > p {
+  font-size: 2.1rem;
+}
